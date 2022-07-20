@@ -17,15 +17,13 @@
 }
 body {
   background: var(--Bg-color);
+  overflow-x: hidden;
 }
 .Black-Text {
   color: var(--primaryColr);
 }
 body i {
   cursor: pointer;
-}
-body {
-  overflow-x: hidden;
 }
 .Nav-Section .Navbar .Lis-Lists {
   padding-left: 0;
@@ -113,6 +111,9 @@ body {
   font-weight: bold;
 }
 @media screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
   .Header_Body-Section .Header-Main .Header_Body-Text h2 {
     font-size: 47px;
   }
@@ -124,6 +125,9 @@ body {
   }
 }
 @media screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
   .Header_Body-Section .Header-Main .Header_Body-Text h2 {
     font-size: 35px;
   }
@@ -141,6 +145,9 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
   #DarkMood {
     position: absolute;
     left: 20%;
@@ -170,6 +177,9 @@ body {
   }
 }
 @media screen and (max-width: 414px) {
+  body {
+    overflow-x: hidden;
+  }
   #DarkMood {
     position: absolute;
     left: 23%;
@@ -182,6 +192,9 @@ body {
   }
 }
 @media screen and (max-width: 393px) {
+  body {
+    overflow-x: hidden;
+  }
   #DarkMood {
     position: absolute;
     left: 25%;
@@ -191,6 +204,9 @@ body {
   }
 }
 @media screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
   #DarkMood {
     position: absolute;
     left: 26%;
@@ -203,6 +219,9 @@ body {
   }
 }
 @media screen and (max-width: 280px) {
+  body {
+    overflow-x: hidden;
+  }
   #DarkMood {
     position: absolute;
     left: 33%;
